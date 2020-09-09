@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:YoutubeDownloader"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="YoutubeDownloader" Height="450" Width="600">
     <Grid>
+        <StackPanel Margin="10,40,10,0">
+            <Image Source="Logo\youtube.png" Height="200"/>
+            <TextBox  Background="Black" FontSize="20" Height="30" Width="500"  Foreground="White" Margin="0,20,0,0"/>
+            <Button Content="Download" FontSize="20" FontWeight="Bold" Margin="0,40,0,0" Background="Red" Height="30" Width="100"/>
+        </StackPanel>
         
     </Grid>
 </Window>
